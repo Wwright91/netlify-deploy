@@ -13,7 +13,7 @@ function Main() {
         <div>
             {apis.filter(api => api.Auth === "apiKey").map((api) => {
         return (
-          <p key={api.key}>
+          <p key={api.Link}>
             <a href={api.Link}>{api.API}</a>
           </p>
         );
